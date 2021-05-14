@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useEffect, useState } from "react";
+import Main from "./components/Main/Main";
+import Auth from "./components/Auth/Auth";
+import Loading from "./components/loading/loading";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
-function App() {
+const App = () => {
+  const [loading, setloading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setloading(false);
+    }, 3000);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {loading ? (
+        <div className="fade">
+          <Loading />
+        </div>
+      ) : (
+        <Router>
+          <Switch>
+            <Route path="/Main" component={Main} exact />
+            <Route path="/Auth" component={Auth} exact />
+            <Redirect to="/Auth" from="*" />
+          </Switch>
+        </Router>
+      )}
     </div>
   );
-}
+};
 
 export default App;

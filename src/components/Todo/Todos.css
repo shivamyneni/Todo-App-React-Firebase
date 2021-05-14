@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.Main-li-div {
+  display: flex;
+  min-height: 40px;
+  width: 50%;
+  background: #ffc257;
+  border: 2px solid #ffffff;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.Main-li-div:hover {
+  width: 51%;
+  animation-name: Fade-in;
+  animation-duration: 2s;
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    width: 50%;
+  }
+
+  45% {
+    opacity: 0.5;
+    width: 51%;
+  }
+
+  100% {
+    opacity: 1;
+    width: 52%;
+  }
+}
+
+.taskname-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.taskname-div > p {
+  color: #ffffff;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  margin-bottom: 0;
+}
+.taskname-div > h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-div > img {
+  width: 20px;
+  height: 20px;
+}
+
+#inprogress {
+  color: #ffffff;
+}
+
+#complete {
+  color: #000000;
+}
