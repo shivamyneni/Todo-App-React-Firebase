@@ -73,8 +73,8 @@
 .signout-div {
   display: flex;
   width: 50%;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .signoutbtn {
@@ -97,4 +97,63 @@
 .searchText:hover {
   border: 2px solid #ffab2e;
   border-radius: 4px;
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+  .title-div {
+    width: 80%;
+  }
+  .Todo-div {
+    width: 90%;
+  }
+
+  .searchText {
+    border-radius: 2px;
+    font-size: x-small;
+    height: 80%;
+    width: 70%;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #e6e6e6;
+  }
+
+  .addtask-div {
+    width: 60%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .signout-div {
+    display: flex;
+    width: 70%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signoutbtn {
+    height: 90%;
+    width: 30%;
+    border-radius: 2px;
+    margin-left: 10px;
+    border: 2px solid #ffab2e;
+    font-weight: bold;
+    font-size: xx-small;
+    color: #ffab2e;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+  }
+
+  .signout-div > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #closebtn {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
 }
