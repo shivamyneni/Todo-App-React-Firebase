@@ -173,7 +173,7 @@
   }
   .user-form-div > input {
     font-family: "Poppins", sans-serif;
-    height: 4vh;
+    height: 3vh;
     width: 23vw;
     font-size: 1.8vw;
     border-radius: 2px;
@@ -199,7 +199,7 @@
   }
   .pwd-form-div > input {
     font-family: "Poppins", sans-serif;
-    height: 4vh;
+    height: 3vh;
     width: 23vw;
     font-size: 1vw;
     border-radius: 2px;
