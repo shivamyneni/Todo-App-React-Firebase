@@ -2,12 +2,12 @@
 
 .Main-li-div {
   display: flex;
-  min-height: 40px;
-  width: 50%;
+  height: 6vh;
+  width: 20.35vw;
   background: #ffc257;
   border: 2px solid #ffffff;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 0.89vw;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   animation-name: FadeIn;
@@ -28,7 +28,7 @@
   }
 }
 .Main-li-div:hover {
-  width: 51%;
+  width: 20.5vw;
   animation-name: Fade-in;
   animation-duration: 2s;
 }
@@ -50,7 +50,8 @@
 }
 
 .taskname-div {
-  width: 50%;
+  width: 10vw;
+  height: 5.72vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,12 +61,13 @@
   color: #ffffff;
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: smaller;
+  font-size: 0.9vw;
   margin-bottom: 0;
 }
 .taskname-div > h6 {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 0.7vw;
 }
 
 .icons-div {
@@ -74,8 +76,8 @@
   align-items: center;
 }
 .icons-div > img {
-  width: 20px;
-  height: 20px;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 #inprogress {
@@ -86,36 +88,19 @@
   color: #000000;
 }
 
-@media (max-width: 375px) and (max-height: 812px) {
+@media (max-width: 600px) and (max-height: 1000px) {
   .Main-li-div {
     display: flex;
-    min-height: 30px;
-    width: 50%;
+    height: 3vh;
+    width: 40vw;
     background: #ffc257;
     border: 2px solid #ffffff;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0.89vw;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     animation-name: FadeIn;
     animation-duration: 1s;
-  }
-
-  .taskname-div > p {
-    font-size: x-small;
-  }
-  .taskname-div > h6 {
-    font-size: xx-small;
-  }
-  .icons-div > img {
-    width: 15px;
-    height: 15px;
-  }
-
-  .Main-li-div:hover {
-    width: 54%;
-    animation-name: Fade-in;
-    animation-duration: 2s;
   }
 
   @keyframes FadeIn {
@@ -130,5 +115,65 @@
     100% {
       opacity: 1;
     }
+  }
+  .Main-li-div:hover {
+    width: 40.5vw;
+    animation-name: Fade-in;
+    animation-duration: 2s;
+  }
+  @keyframes FadeIn {
+    0% {
+      opacity: 0;
+      width: 50%;
+    }
+
+    45% {
+      opacity: 0.5;
+      width: 51%;
+    }
+
+    100% {
+      opacity: 1;
+      width: 52%;
+    }
+  }
+
+  .taskname-div {
+    width: 20vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .taskname-div > p {
+    color: #ffffff;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    margin-bottom: 0;
+  }
+  .taskname-div > h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.8vw;
+  }
+
+  .icons-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons-div > img {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  #inprogress {
+    color: #ffffff;
+  }
+
+  #complete {
+    color: #000000;
   }
 }

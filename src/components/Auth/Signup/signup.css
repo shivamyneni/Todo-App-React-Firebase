@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap");
+
 .Main-form-div {
-  width: 80%;
-  height: 60%;
+  width: 34.63vw;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,8 +25,8 @@
 }
 
 .form-div {
-  width: 70%;
-  height: 90%;
+  width: 222.398vw;
+  height: 32.396vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,15 +34,60 @@
 }
 
 .user-form-div {
-  width: 50%;
-  height: 30%;
+  width: 11.19vw;
+  height: 9.719vh;
   display: flex;
   flex-direction: column;
 }
 
+.user-form-div > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 0.9vw;
+}
+.user-form-div > input {
+  font-family: "Poppins", sans-serif;
+  height: 4vh;
+  width: 11.19vw;
+  font-size: 0.7vw;
+  border-radius: 2px;
+  border: 2px solid #ffab2e;
+}
+
+.user-form-div > input:hover {
+  border: 2px solid #e6e6e6;
+}
+
+.pwd-form-div {
+  width: 11.19vw;
+  height: 9.719vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pwd-form-div > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 0.9vw;
+}
+.pwd-form-div > input {
+  font-family: "Poppins", sans-serif;
+  height: 4vh;
+  width: 11.19vw;
+  font-size: 0.7vw;
+  border-radius: 2px;
+  border: 2px solid #ffab2e;
+}
+
+.pwd-form-div > input:hover {
+  border: 2px solid #e6e6e6;
+}
+
 .error {
-  height: 15%;
-  width: 60%;
+  height: 4.85vh;
+  width: 13.437vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -49,119 +95,124 @@
 }
 
 .error > img {
-  height: 20px;
-  width: 20px;
+  height: 3.053vh;
+  width: 1.757vw;
 }
 .error > p {
   top: 0;
   bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   color: #ff4b4b;
-  font-size: x-small;
-}
-.user-form-div > h5 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.user-form-div > input {
-  font-family: "Poppins", sans-serif;
-  height: 40%;
-  width: 80%;
-  font-size: x-small;
-  border-radius: 2px;
-  border: 1px solid #ffab2e;
-}
-
-.user-form-div > input:hover {
-  border: 2px solid #e6e6e6;
-}
-.pwd-form-div {
-  width: 50%;
-  height: 30%;
-  display: flex;
-  flex-direction: column;
-}
-
-.pwd-form-div > h5 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.pwd-form-div > input {
-  font-family: "Poppins", sans-serif;
-  height: 40%;
-  width: 80%;
-  border-radius: 2px;
-  border: 1px solid #ffab2e;
-}
-
-.pwd-form-div > input:hover {
-  border: 1px solid #e6e6e6;
+  font-size: 0.96vw;
 }
 
 .button-form-div {
-  height: 15%;
+  height: 4.85vh;
   display: flex;
-  width: 50%;
+  width: 7.83vw;
   justify-content: center;
 }
 
 .button-form-div > button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  width: 70%;
-  font-size: smaller;
+  width: 6vw;
+  font-size: 0.8vw;
+  height: 4.85vh;
   background-color: #f7f7f7;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
 }
 
-@media (max-width: 375px) and (max-height: 812px) {
-  .user-form-div > input {
-    height: 40%;
-    width: 90%;
-  }
-
-  .pwd-form-div > input {
-    height: 40%;
-    width: 90%;
-  }
-
-  .user-form-div {
-    width: 50%;
-    height: 15%;
+@media (max-width: 600px) and (max-height: 1000px) {
+  .Main-form-div {
+    width: 244.8px;
+    height: 256px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    animation-name: FadeIn;
+    animation-duration: 1.5s;
   }
+  @keyframes FadeIn {
+    0% {
+      opacity: 0;
+    }
 
-  .pwd-form-div {
-    width: 50%;
-    height: 15%;
-    display: flex;
-    flex-direction: column;
+    45% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 
   .form-div {
-    width: 70%;
-    height: 80%;
+    width: 244.8px;
+    height: 207.33px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
   }
 
-  .pwd-form-div > h5 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: x-small;
+  .user-form-div {
+    width: 23vw;
+    height: 9.719vh;
+    display: flex;
+    flex-direction: column;
   }
 
-  .user-form-div > h5 {
+  .user-form-div > p {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: x-small;
+    font-weight: 600;
+    font-size: 2vw;
+  }
+  .user-form-div > input {
+    font-family: "Poppins", sans-serif;
+    height: 4vh;
+    width: 23vw;
+    font-size: 1.8vw;
+    border-radius: 2px;
+    border: 2px solid #ffab2e;
+  }
+
+  .user-form-div > input:hover {
+    border: 2px solid #e6e6e6;
+  }
+
+  .pwd-form-div {
+    width: 23vw;
+    height: 9.719vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pwd-form-div > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 2vw;
+  }
+  .pwd-form-div > input {
+    font-family: "Poppins", sans-serif;
+    height: 4vh;
+    width: 23vw;
+    font-size: 1vw;
+    border-radius: 2px;
+    border: 2px solid #ffab2e;
+  }
+
+  .pwd-form-div > input:hover {
+    border: 2px solid #e6e6e6;
   }
 
   .error {
-    height: 15%;
-    width: 60%;
+    height: 4.85vh;
+    width: 26vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -169,30 +220,32 @@
   }
 
   .error > img {
-    height: 10px;
-    width: 10px;
+    height: 4vw;
+    width: 4vw;
   }
   .error > p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5px;
+    top: 0;
+    bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
     color: #ff4b4b;
-    font-size: xx-small;
+    font-size: 1.8vw;
   }
 
   .button-form-div {
-    height: 10%;
+    height: 4.85vh;
     display: flex;
-    width: 40%;
+    width: 15vw;
     justify-content: center;
   }
 
   .button-form-div > button {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    width: 80%;
-    font-size: x-small;
+    width: 12vw;
+    font-size: 1.8vw;
+    height: 4.85vh;
     background-color: #f7f7f7;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
   }
 }

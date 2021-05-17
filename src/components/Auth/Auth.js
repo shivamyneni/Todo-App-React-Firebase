@@ -33,12 +33,13 @@ const Auth = () => {
           <Loading />
         ) : (
           <div class="container">
-            <h4>To-Do Login✌</h4>
+            <div className="sign">
+              <p>To-Do Login✌</p>
+            </div>
             <Signin toggle={toggle} er={error} />
             <p>
               New here?
               <span onClick={() => setauthType("signup")}>
-                {" "}
                 Create Account😏
               </span>
             </p>
@@ -48,7 +49,9 @@ const Auth = () => {
         <Loading />
       ) : (
         <div class="container">
-          <h4>To-Do Signup😍</h4>
+          <div className="sign">
+            <p>To-Do Signup😍</p>
+          </div>
           <Signup toggle={toggle} er={error} />
           <p>
             Already have An Account?

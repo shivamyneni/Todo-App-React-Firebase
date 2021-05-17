@@ -37,14 +37,14 @@ const Signup = (props) => {
     <div className="Main-form-div">
       <div className="form-div">
         <div className="user-form-div">
-          <h5>Username</h5>
+          <p>Username</p>
           <input
             type="email"
             onChange={(e) => setEmail(e.target.value)}
           ></input>
         </div>
         <div className="pwd-form-div">
-          <h5>Password</h5>
+          <p>Password</p>
           <input
             type="password"
             onChange={(e) => setpwd(e.target.value)}
