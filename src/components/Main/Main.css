@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #f8cb86;
+  font-weight: 600;
+}
+
 .Main-Task-div {
   width: 100vw;
   height: 100vh;
@@ -55,22 +61,33 @@
   border-radius: 2px;
   font-size: x-small;
   height: 5vh;
-  width: 13vw;
+  width: 15vw;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   border: 2px solid #e6e6e6;
 }
 
 .addtask-div {
-  width: 18vw;
-  height: 6vh;
+  width: 20.35vw;
+  height: 5vh;
   display: flex;
   align-items: center;
 }
 #closebtn {
-  width: 1.5vw;
-  height: 1.5vw;
-  margin-left: 1.777vw;
+  width: 5.0875vw;
+  height: 5vh;
+  margin-left: 0.26vw;
+  font-weight: bold;
+  font-size: 0.5vw;
+  color: #ffab2e;
+  border: 2px solid #ffab2e;
+  background-color: #ffffff;
+}
+
+#closebtn:hover {
+  background-color: #ffab2e;
+  color: #ffffff;
+  border: 2px solid #ffab2e;
 }
 .signout-div {
   display: flex;
@@ -101,9 +118,16 @@
 .searchText:hover {
   border: 2px solid #ffab2e;
   border-radius: 4px;
+  color: #ffab2e;
 }
 
 @media (max-width: 600px) and (max-height: 1000px) {
+  ::placeholder {
+    /* Most modern browsers support this now. */
+    color: #ffab2e;
+    font-weight: 600;
+  }
+
   .Main-Task-div {
     width: 100vw;
     height: 100vh;
@@ -183,7 +207,7 @@
   }
 
   .addtask-div {
-    width: 36vw;
+    width: 40vw;
     height: 3vh;
     display: flex;
     align-items: center;
@@ -193,20 +217,33 @@
     border-radius: 2px;
     font-size: 1.8vw;
     height: 3vh;
-    width: 26vw;
+    width: 24.5vw;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #e6e6e6;
   }
 
   #closebtn {
-    width: 4vw;
-    height: 4vw;
-    margin-left: 1.777vw;
+    width: 15vw;
+    height: 3vh;
+    margin-left: 0.5vw;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #ffab2e;
+    border: 2px solid #ffab2e;
   }
 
+  #closebtn:hover {
+    background-color: #ffab2e;
+    color: #ffffff;
+    border: 2px solid #ffab2e;
+  }
   .searchText:hover {
     border: 2px solid #ffab2e;
     border-radius: 4px;
+    color: #ffab2e;
   }
 }

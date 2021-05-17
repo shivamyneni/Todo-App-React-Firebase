@@ -38,11 +38,15 @@ const Signin = (props) => {
       <div className="form-div">
         <div className="user-form-div">
           <p>Username</p>
-          <input onChange={(e) => setEmail(e.target.value)}></input>
+          <input
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+          ></input>
         </div>
         <div className="pwd-form-div">
           <p>Password</p>
           <input
+            placeholder="password"
             type="password"
             onChange={(e) => setpwd(e.target.value)}
           ></input>

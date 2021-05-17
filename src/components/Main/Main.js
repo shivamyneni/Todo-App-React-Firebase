@@ -66,18 +66,16 @@ const Main = () => {
         </div>
         <div className="addtask-div">
           <input
+            placeholder="Enter the Task"
             onKeyPress={enterkey}
             value={taskname}
             className="searchText"
             onChange={(e) => settaskname(e.target.value)}
             type="text"
           ></input>
-          <img
-            id="closebtn"
-            alt="addicon"
-            src="https://img.icons8.com/metro/23/ffab2e/checked.png"
-            onClick={addtask}
-          />
+          <button id="closebtn" onClick={addtask}>
+            ADD TASK
+          </button>
         </div>
       </div>
 

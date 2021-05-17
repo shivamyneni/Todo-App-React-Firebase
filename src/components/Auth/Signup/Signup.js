@@ -39,6 +39,7 @@ const Signup = (props) => {
         <div className="user-form-div">
           <p>Username</p>
           <input
+            placeholder="Email"
             type="email"
             onChange={(e) => setEmail(e.target.value)}
           ></input>
@@ -46,6 +47,7 @@ const Signup = (props) => {
         <div className="pwd-form-div">
           <p>Password</p>
           <input
+            placeholder="password"
             type="password"
             onChange={(e) => setpwd(e.target.value)}
           ></input>
