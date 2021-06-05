@@ -13,20 +13,12 @@
 ### Connect with me:
 
 [<img align="left" alt="codeSTACKr | LinkedIn" width="30px" src="https://img.icons8.com/metro/50/000000/linkedin.png" />][linkedin]
-
 [<img align="left" alt="codeSTACKr | Instagram" width="30px" src="https://img.icons8.com/metro/50/000000/instagram-new.png" />][instagram]
 <br />
 
 ### Languages and Tools Used:
 
-<img align="left" alt="Visual Studio Code" width="22px" src="https://img.icons8.com/fluent/50/000000/visual-studio-code-2019.png" />
-<img align="left" alt="JavaScript" width="22px" src="https://img.icons8.com/color/50/000000/javascript.png" />
-<img align="left" alt="React-Native" width="22px" src="https://img.icons8.com/color/50/000000/react-native.png" />
-<img align="left" alt="Git" width="22px" src="https://img.icons8.com/color/50/000000/git.png" />
-<img align="left" alt="GitHub" width="22px" src="https://img.icons8.com/material-rounded/50/000000/github.png" />
-<img align="left" alt="HTML5" width="22px" src="https://img.icons8.com/color/48/000000/html-5.png" />
-<img align="left" alt="CSS3" width="22px" src="https://img.icons8.com/color/48/000000/css3.png" />
-<img align="left" alt="Firebase" width="26px" src="https://img.icons8.com/color/48/000000/firebase.png" />
+<img align="left" alt="Visual Studio Code" width="22px" src="https://img.icons8.com/fluent/50/000000/visual-studio-code-2019.png" /><img align="left" alt="JavaScript" width="22px" src="https://img.icons8.com/color/50/000000/javascript.png" /><img align="left" alt="React-Native" width="22px" src="https://img.icons8.com/color/50/000000/react-native.png" /><img align="left" alt="Git" width="22px" src="https://img.icons8.com/color/50/000000/git.png" /><img align="left" alt="GitHub" width="22px" src="https://img.icons8.com/material-rounded/50/000000/github.png" /><img align="left" alt="HTML5" width="22px" src="https://img.icons8.com/color/48/000000/html-5.png" /><img align="left" alt="CSS3" width="22px" src="https://img.icons8.com/color/48/000000/css3.png" /><img align="left" alt="Firebase" width="26px" src="https://img.icons8.com/color/48/000000/firebase.png" />
 <br />
 <br />
 
